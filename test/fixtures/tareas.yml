@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  cumplida: false
+  nombre: MyString
+  notas: MyText
+  prioridad: 1
+  fvence: 2011-12-04
+
+two:
+  cumplida: false
+  nombre: MyString
+  notas: MyText
+  prioridad: 1
+  fvence: 2011-12-04

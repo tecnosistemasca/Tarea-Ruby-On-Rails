@@ -1,4 +1,6 @@
 Admin::Application.routes.draw do 
+  resources :tareas
+
  netzke  
 #get "home/index"
 
