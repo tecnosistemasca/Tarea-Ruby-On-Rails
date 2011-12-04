@@ -7,3 +7,7 @@ Es importante resaltar que en la carpeta public de esta aplicacion se encuentra 
 Ademas como pueden notar en el archivo Gemfile he agregado unas lineas para descargar y usar el netzke-core y el netzke-basepack en mi aplicacion, los cuales son la base de la integracion para el extjs.
 
 alli subi una imagen de mi aplicacion funcionando a la perfeccion.
+
+No es necesario que incluya el archivo de backup de la base de batos ya que la aplicacion te la genera de acuerdo al modelo que estes usando a traves de los comandos: rake db:create y rake db:migrate respectivamente.
+
+en el archivo config/database.yml pueden observar la configuracion del usuario de postgresql, deberan cambiarlo en este caso por el que ustedes tengan configurado.
