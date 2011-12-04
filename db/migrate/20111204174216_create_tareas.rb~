@@ -1,7 +1,7 @@
 class CreateTareas < ActiveRecord::Migration
   def change
     create_table :tareas do |t|
-      t.boolean :cumplida, :default => false
+      t.boolean :cumplida
       t.string :nombre
       t.text :notas
       t.integer :prioridad
