@@ -7,6 +7,7 @@ gem 'rails', '3.1.3'
 
 gem 'pg'
 gem 'netzke-core', :git => "git://github.com/skozlov/netzke-core.git"
+gem 'netzke-basepack', :git => "git://github.com/skozlov/netzke-basepack.git"
 gem 'execjs'
 gem 'therubyracer'
 

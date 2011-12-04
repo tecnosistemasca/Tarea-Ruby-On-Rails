@@ -1,2 +1,4 @@
-class Tarea < ActiveRecord::Base
+class Tarea < Netzke::Base
+validates_presence_of :nombre
+default_scope :conditions => {:cumplida => false}
 end
